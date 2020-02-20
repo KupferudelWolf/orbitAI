@@ -142,6 +142,7 @@
             select;
         input.type = 'number';
         input.value = prop.value;
+        input.step = 'any';
         if (unitSet) {
           select = newDOM('SELECT', inputDiv);
           $.each(app.units[unitSet], (key, value) => {
