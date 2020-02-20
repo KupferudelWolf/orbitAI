@@ -1,0 +1,38 @@
+body {
+  padding: 8px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.grid {
+  display: grid;
+  width: max-content;
+  grid-gap: 8px;
+  grid-template-columns: max-content 200px;
+  align-items: center;
+  padding: 8px;
+  background-color: rgb(255, 253, 212);
+}
+
+.grid div {
+  text-align: right;
+}
+
+input[type="number"] {
+  width: 100%;
+  text-align: left;
+  float: left;
+  border-color: gray;
+  border-width: 0px 0px 2px 0px;
+  border-style: none none solid none;
+  background-color: transparent;
+  font-family: inherit;
+}
+.grid select {
+  width: max-content;
+  text-align: right;
+  border-color: gray;
+  border-width: 0px 0px 2px 0px;
+  border-style: none none none none;
+  background-color: transparent;
+  font-family: inherit;
+}
